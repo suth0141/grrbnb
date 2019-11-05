@@ -1,4 +1,4 @@
-@import url('some google sans-serif font');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 /* make sure to select a new google font and use it for your header */
 
 *{
@@ -13,7 +13,7 @@
 html{
     font-size: 20px;
     line-height: 1.5;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-family: 'Roboto',Arial Verdana, sans-serif;
 }
 main{
     width: 90%;
@@ -23,16 +23,18 @@ main{
 header{
     /* Photo by Wyatt Ryan on Unsplash */
     /* Replace this with an image that you select */
-    background-image: url(../img/wyatt-ryan-367017-unsplash.jpg);
+    background-image: url(../img/img.jpg);
     background-size: 100% auto;
+    background-repeat: no-repeat;
     background-position: center center;
 }
+
 header h1{
     font-size: 4rem;
     line-height: 4rem;
     padding: 1rem 1rem;
-    color: rgba(250,250,250, 0.7);
-    text-shadow: 2px 2px 4px #835A59;
+    color:#64350B ;
+    text-shadow: 2px 2px 4px #BEAF96;
     vertical-align: top;
     text-align: right;
     min-height: 12rem;
@@ -51,8 +53,8 @@ form{
 label{
     display: block;
     margin: 0;
-    font-size: 1rem;
-    color: #3F1F24;
+    font-size: 1.2rem;
+    color: rgb(48, 44, 38);
 }
 input{
     margin:0;
@@ -73,8 +75,8 @@ input.price#max::after{
     font-size: 1rem;
     line-height: 1.5;
     padding: 0.25rem 1rem;
-    background-color:#D16641;
-    color: #fff;
+    background-color:#64350B;
+    color:#BEAF96;
 }
 @media all and (min-width:650px){
     form{
