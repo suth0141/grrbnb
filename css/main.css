@@ -25,9 +25,9 @@ header{
     /* Replace this with an image that you select */
     background-image: url(../img/img.jpg);
     background-size: 100% auto; 
+    width: initial;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    
 }
 
 header h1{
@@ -114,6 +114,9 @@ input.price#max::after{
     .form-box.max-price{
         padding-right: 1rem;
     }
+    /* header h1{
+        font-size: 2em;
+    } */
 }
 @media all and (min-width:1000px){
     main{
