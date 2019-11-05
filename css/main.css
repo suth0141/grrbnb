@@ -24,9 +24,10 @@ header{
     /* Photo by Wyatt Ryan on Unsplash */
     /* Replace this with an image that you select */
     background-image: url(../img/img.jpg);
-    background-size: 100% auto;
+    background-size: 100% auto; 
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 50% 50%;
+    
 }
 
 header h1{
@@ -63,6 +64,9 @@ input{
     width: 100%;
     color: #835A59;
 }
+input:focus {
+    border: 2px solid blue
+  }
 input#min.price::after,
 input.price#max::after{
     content: "$" attr(data-price);
@@ -77,6 +81,10 @@ input.price#max::after{
     padding: 0.25rem 1rem;
     background-color:#64350B;
     color:#BEAF96;
+}
+
+.search-btn:hover{
+    color: white;
 }
 @media all and (min-width:650px){
     form{
